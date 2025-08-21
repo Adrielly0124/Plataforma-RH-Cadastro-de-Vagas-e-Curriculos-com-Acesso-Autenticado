@@ -13,6 +13,9 @@ import { FormsModule } from '@angular/forms';
 import { CurriculoFormComponent } from './view/curriculo-form/curriculo-form.component';
 import { CurriculoListComponent } from './view/curriculo-list/curriculo-list.component';
 import { CurriculoDetailComponent } from './view/curriculo-detail/curriculo-detail.component';
+import { LoginComponent } from './view/login/login.component';
+import { CadastroComponent } from './view/cadastro/cadastro.component';
+import { AdminVagasComponent } from './view/admin-vagas/admin-vagas.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { CurriculoDetailComponent } from './view/curriculo-detail/curriculo-deta
     CurriculoFormComponent,
     CurriculoListComponent,
     CurriculoDetailComponent,
+    LoginComponent,
+    CadastroComponent,
+    AdminVagasComponent,
   ],
   imports: [
     BrowserModule,
