@@ -1,0 +1,64 @@
+// Paleta de cores refinada
+$cor-primaria: #007bff;
+$cor-secundaria: #6c757d;
+$cor-sucesso: #28a745;
+$cor-alerta: #ffc107;
+$cor-perigo: #dc3545;
+$cor-fundo: #f0f2f5;
+$cinza-leve: #e9ecef;
+
+.lista-curriculos {
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid $cor-primaria;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+      flex: 1;
+
+      h5.card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: $cor-primaria;
+        margin-bottom: 0.5rem;
+      }
+
+      hr {
+        margin: 1rem 0;
+        border: none;
+        border-top: 1px solid #ddd;
+      }
+
+      .card-text {
+        margin-bottom: 0.4rem;
+        font-size: 0.95rem;
+        color: #333;
+
+        strong {
+          color: $cor-secundaria;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
