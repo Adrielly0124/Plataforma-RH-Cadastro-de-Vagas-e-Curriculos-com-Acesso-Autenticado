@@ -16,6 +16,7 @@ import { CurriculoDetailComponent } from './view/curriculo-detail/curriculo-deta
 import { LoginComponent } from './view/login/login.component';
 import { CadastroComponent } from './view/cadastro/cadastro.component';
 import { AdminVagasComponent } from './view/admin-vagas/admin-vagas.component';
+import { GuardComponent } from './app/guard/guard.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AdminVagasComponent } from './view/admin-vagas/admin-vagas.component';
     LoginComponent,
     CadastroComponent,
     AdminVagasComponent,
+    GuardComponent,
   ],
   imports: [
     BrowserModule,

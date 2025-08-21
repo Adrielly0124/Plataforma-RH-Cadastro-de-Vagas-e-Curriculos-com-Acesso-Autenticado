@@ -246,3 +246,5 @@ Etiqueta Azul  =  Endrew
 Etiqueta Cinza = Eduardo
 
 
+links diagramas = 
+<img src>
