@@ -1,3 +1,21 @@
+<nav class="navbar">
+  <ul>
+    <li><a routerLink="/inicio">Início</a></li>
+    <li *ngIf="userRole === 'candidato'">
+      <a routerLink="/curriculo/cadastrar">Cadastrar Currículo</a>
+    </li>
+    <li *ngIf="userRole === 'candidato'">
+      <a routerLink="/perfil">Meu Perfil</a>
+    </li>
+    <li *ngIf="userRole === 'admin'">
+      <a routerLink="/vagas/gerenciar">Gerenciar Vagas</a>
+    </li>
+    <li>
+      <a routerLink="/login">Sair</a>
+    </li>
+  </ul>
+</nav>
+
 <div class="container">
     <h1>Bem-vindo a nossa plataforma de Currículos e Vagas</h1>
     <p>Aqui você pode cadastrar seu currículo e procurar por vagas de emprego</p>

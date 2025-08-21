@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
+  userRole?: string;
+  loginError?: string;
+  email = '';
+  password = '';
 
+  onLogin() {}
 }
