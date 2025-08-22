@@ -1,0 +1,21 @@
+.auth-card {
+  max-width: 360px;
+  margin: 32px auto;
+  display: grid;
+  gap: 12px;
+
+  input,
+  button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .erro {
+    color: #b00020;
+  }
+}

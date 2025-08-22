@@ -54,5 +54,18 @@
       "experiencia": "",
       "foto": "foto1.webp"
     }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "admin@rh.com",
+      "senha": "admin123",
+      "tipo": "admin"
+    },
+    {
+      "id": "8880",
+      "email": "teste@gmail.com",
+      "senha": "123456"
+    }
   ]
 }

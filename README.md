@@ -153,7 +153,20 @@ Protótipos e Diagramas:
 
 -Telas principais no Figma (login, registro, área admin, área candidato, vagas públicas). 
 
--Diagramas: fluxo de autenticação, casos de uso e classes. 
+-Diagramas: fluxos, casos de uso e classes. 
+
+<h2>Diagramas</h2>
+<h3>Diagrama de autenticação</h3>
+<img src="/assets/diagramas/autenticação.jpeg" alt="Diagrama de autenticação">
+
+<h3>Diagrama de classe</h3>
+<img src="/assets/diagramas/diagrama-classe.jpeg" alt="Diagrama de classe">
+
+<h3>Diagrama de uso</h3>
+<img src="/assets/diagramas/diagrama-uso.jpeg" alt="Diagrama de uso">
+
+<h3>Diagrama de navegação de perfil</h3>
+<img src="/assets/diagramas/navegação-perfil.jpeg" alt="Diagrama de navegação-de-perfil">
 
 Código-Fonte: 
 
@@ -176,8 +189,11 @@ Apresentação Final:
 -Vídeo curto demonstrando as principais funcionalidades e restrições de acesso.
 
 
-Cronograma Geral Plataforma RH (15/08/2025)
 
+<h2>Cronograma Geral Plataforma RH</h2>
+
+<img src="/assets/cronograma/cronograma - pt.1.jpeg" alt="cronograma - pt.1">
+<img src="/assets/cronograma//cronograma - pt.2.jpeg" alt="cronograma - pt.2">
 
 Responsabilidades Individuais
 
@@ -187,6 +203,13 @@ Etiqueta Roxa  = Júlia
 Etiqueta Azul  =  Endrew
 Etiqueta Cinza = Eduardo
 
+<h2>Metodologia Ágil</h2>
+<h3>KanBan - Trello</h3>
+<img src="/assets/trello/trello-01.jpeg" alt="Trello 01">
+<img src="/assets/trello/trello-02.jpeg" alt="Trello 02">
+<img src="/assets/trello/trello-03.jpeg" alt="Trello 03">
+<img src="/assets/trello/trello-04.jpeg" alt="Trello 04">
+<img src="/assets/trello/trello-05.jpeg" alt="Trello 05">
+<img src="/assets/trello/trello-06.jpeg" alt="Trello 06"> 
 
-links diagramas = 
-<img src>
+

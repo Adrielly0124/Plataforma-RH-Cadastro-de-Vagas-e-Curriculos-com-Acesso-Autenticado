@@ -1,1 +1,9 @@
-<p>login works!</p>
+<div class="auth-card">
+  <h2>Login</h2>
+  <form [formGroup]="form" (ngSubmit)="entrar()">
+    <input type="email" placeholder="Email" formControlName="email">
+    <input type="password" placeholder="Senha" formControlName="senha">
+    <button type="submit">Entrar</button>
+    <p class="erro" *ngIf="erro">{{ erro }}</p>
+  </form>
+</div>

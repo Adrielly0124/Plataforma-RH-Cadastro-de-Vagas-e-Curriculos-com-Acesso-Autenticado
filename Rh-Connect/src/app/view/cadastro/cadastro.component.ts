@@ -1,44 +1,28 @@
 import { Component } from '@angular/core';
-import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
-import { RouterLink, Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { AuthService } from '../../service/auth.service';
 
 @Component({
-  standalone: true,
-  selector: 'app-registro',
-  imports: [ReactiveFormsModule, CommonModule, RouterLink],
-  providers: [AuthService],
-  template: ` <div class="card">
-    <h2>Criar conta</h2>
-    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="grid">
-      <input class="input" placeholder="E-mail" formControlName="email" />
-      <input
-        class="input"
-        placeholder="Senha"
-        type="password"
-        formControlName="senha"
-      />
-      <button class="btn btn-primary" [disabled]="form.invalid">
-        Registrar
-      </button>
-    </form>
-    <p>Já tem conta? <a routerLink="/login">Entre</a></p>
-  </div>`,
+  selector: 'app-cadastro',
+  templateUrl: './cadastro.component.html',
+  styleUrls: ['./cadastro.component.scss'],
 })
-export class RegistroComponent {
+export class CadastroComponent {
   form = this.fb.group({
     email: ['', [Validators.required, Validators.email]],
-    senha: ['', [Validators.required, Validators.minLength(4)]],
+    senha: ['', Validators.required],
   });
+
   constructor(
     private fb: FormBuilder,
     private auth: AuthService,
     private router: Router
   ) {}
-  onSubmit() {
-    const { email, senha } = this.form.value;
-    this.auth.registrar(email!, senha!).subscribe(() => {
+
+  registrar() {
+    if (this.form.invalid) return;
+    this.auth.registrar(this.form.value as any).subscribe(() => {
       this.router.navigate(['/login']);
     });
   }

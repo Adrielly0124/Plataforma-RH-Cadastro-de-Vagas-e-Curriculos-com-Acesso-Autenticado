@@ -1,1 +1,8 @@
-<p>cadastro works!</p>
+<div class="auth-card">
+  <h2>Cadastro</h2>
+  <form [formGroup]="form" (ngSubmit)="registrar()">
+    <input type="email" placeholder="Email" formControlName="email">
+    <input type="password" placeholder="Senha" formControlName="senha">
+    <button type="submit">Criar conta</button>
+  </form>
+</div>

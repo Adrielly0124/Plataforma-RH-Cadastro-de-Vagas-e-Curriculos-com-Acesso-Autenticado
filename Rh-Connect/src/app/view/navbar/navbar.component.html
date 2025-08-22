@@ -1,0 +1,10 @@
+<nav class="nav">
+  <a routerLink="/vagas">Vagas</a>
+  <a *ngIf="!auth.isLogado()" routerLink="/login">Login</a>
+  <a *ngIf="!auth.isLogado()" routerLink="/cadastro">Cadastro</a>
+
+  <a *ngIf="auth.isLogado() && !auth.isAdmin()" routerLink="/curriculo-list">Meu Currículo</a>
+  <a *ngIf="auth.isAdmin()" routerLink="/painel-vagas">Gerenciar Vagas</a>
+
+  <button *ngIf="auth.isLogado()" (click)="sair()">Sair</button>
+</nav>
