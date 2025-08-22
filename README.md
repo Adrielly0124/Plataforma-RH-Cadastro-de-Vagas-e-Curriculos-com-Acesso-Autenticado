@@ -178,64 +178,6 @@ Apresentação Final:
 
 Cronograma Geral Plataforma RH (15/08/2025)
 
-Semana
-Atividade
-Descrição
-
-
-
-1
-
-
-Reunião de planejamento 01
-Organização do projeto, desenvolvimento do cronograma geral e definição das responsabilidades individuais de cada integrante da equipe.
-
-1
-
-Documentação
-Levantamento de requisitos, definição do escopo, elaboração dos diagramas (fluxo, classes, uso).
-
-1
-
-Protótipo
-criação do protótipo UI/UX através do Figma - todas as telas da plataforma
-
-
-
-
-
-2
-
-
-
-
-Reunião de Planejamento 02
-Revisão dos requisitos, ajustes na documentação, planejamento detalhado da codificação e definição das responsabilidades individuais de cada integrante da equipe nesse processo de desenvolvimento dos códigos.
-
-
-
-
-
-2
-
-Desenvolvimento
-/Codificação
-Implementação da aplicação Angular: componentes, serviços, guardas de rota, formulários reativos e integração com json-server.
-
-
-2
-
-Testes e Ajustes
-Testes das funcionalidades implementadas, correção dos erros e refinamento da interface.
-
-
-2
-
-Preparação da Apresentação Final
-Preparação da gravação de demonstração, organização do código-fonte e documentação final para entrega.
-
-
-
 
 Responsabilidades Individuais
 
